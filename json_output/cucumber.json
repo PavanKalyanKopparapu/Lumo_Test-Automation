@@ -1,0 +1,219 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "verify Signup flow",
+        "description": "",
+        "id": "signup;verify-signup-flow;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7991859900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "When user is on signup page",
+            "match": {
+              "location": "SignUp_Stepdefenition.when_user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4153466700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the firstName \"pavan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pavan",
+                  "offset": 21
+                }
+              ],
+              "location": "SignUp_Stepdefenition.enter_the_firstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119275400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the lastName \"kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kumar",
+                  "offset": 20
+                }
+              ],
+              "location": "SignUp_Stepdefenition.enter_the_lastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 181570500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the Email \"pavan@mailnesia.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pavan@mailnesia.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignUp_Stepdefenition.enter_the_Email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169931900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the password \"Pavan@123$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pavan@123$",
+                  "offset": 20
+                }
+              ],
+              "location": "SignUp_Stepdefenition.enter_the_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4149913200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the confirm password \"Pavan@123$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pavan@123$",
+                  "offset": 28
+                }
+              ],
+              "location": "SignUp_Stepdefenition.enter_the_confirm_password(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5649030400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on create account button.",
+            "match": {
+              "location": "SignUp_Stepdefenition.click_on_create_account_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Signup",
+    "description": "",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "NewAccountCreateFeature.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login To the appilication with valid credentials",
+        "description": "",
+        "id": "login-to-the-appilication;login-to-the-appilication-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6210251700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "when click on the Login button",
+            "match": {
+              "location": "Login_Stepdefenition.when_click_on_the_Login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172433400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the Email address",
+            "match": {
+              "location": "Login_Stepdefenition.enter_the_Email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111091900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Passoword",
+            "match": {
+              "location": "Login_Stepdefenition.enter_the_Passoword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2003194200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on sign in button",
+            "match": {
+              "location": "Login_Stepdefenition.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the appilication",
+    "description": "",
+    "id": "login-to-the-appilication",
+    "keyword": "Feature",
+    "uri": "SignInFeature.feature"
+  }
+]

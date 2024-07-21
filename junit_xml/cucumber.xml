@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.912019">
+    <testcase classname="Signup" name="verify Signup flow" time="22.415048">
+        <system-out>
+            <![CDATA[Given When user is on signup page...........................................passed
+Then Enter the firstName "pavan"............................................passed
+Then Enter the lastName "kumar".............................................passed
+Then Enter the Email "pavan@mailnesia.com"..................................passed
+Then Enter the password "Pavan@123$"........................................passed
+Then Enter the confirm password "Pavan@123$"................................passed
+And Click on create account button..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to the appilication" name="Login To the appilication with valid credentials" time="8.496971">
+        <system-out>
+            <![CDATA[Given when click on the Login button........................................passed
+Then Enter the Email address................................................passed
+Then Enter the Passoword....................................................passed
+And click on sign in button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
