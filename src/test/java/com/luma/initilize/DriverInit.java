@@ -13,8 +13,7 @@ public class DriverInit {
 	public static WebDriver launchBrowser() {
 		
 		
-		  System.setProperty("webdriver.chrome.driver",
-		            "C:\\Users\\sudhe\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		  driver = new ChromeDriver();
 		  driver.get("https://magento.softwaretestingboard.com/");
 		  driver.manage().window().maximize();
